@@ -6,11 +6,9 @@ public class SimulationDriver {
 	
 	//Generate/initialize needed values and other key items
 	private final static int numOfStudents = (int)(Math.random() * 75) + 5;	//randomly selects # of students to poll
-	//private final static int numOfStudents = 10;
 	private static Student[] students = new Student[numOfStudents];			//will hold students with their assigned ID numbers
 
 	private final static int qType = (int)(Math.random() * 3) + 1;			//randomly selects type of question
-	//private final static int qType = 3;
 
 	private static int numOfChoices = (int)(Math.random() * 4) + 4;			//randomly selects how many answer choices
 	private static ArrayList<String> choices = new ArrayList<String>();		//will hold answer choices for each question
@@ -28,7 +26,6 @@ public class SimulationDriver {
 		for(int i = 0; i < numOfStudents; i++)
 		{
 			students[i] = new Student(101 + i);
-			//System.out.println("Student #" + (i + 1) + "'s Student ID: " + students[i].getId());
 		}
 		
 		if (qType == 1)
@@ -107,6 +104,7 @@ public class SimulationDriver {
 		return choices;
 	}
 
+	//Methods to create each question type
 	public static QuestionInterface createMCQ(String question, ArrayList<String> choices)
 	{
 		QuestionInterface q = new MCQuestion(question,choices);

@@ -13,8 +13,6 @@ public class MCAnswers implements AnswerInterface {
 		ArrayList<String> temp = mcqChoices;
 		Collections.shuffle(temp);
 		
-		//System.out.println(temp);
-		
 		ArrayList<String> studentAnswer = new ArrayList<String>();		//New ArrayList to hold student answer
 		//Select random number (within # of question's answer choices) of answers for the student to select
 		int numOfResponses = (int)(Math.random()*mcqChoices.size()) + 1;
@@ -22,8 +20,6 @@ public class MCAnswers implements AnswerInterface {
 		//Create array of student's answers, then sort the array
 		for(int i = 0; i < numOfResponses; i++)
 			studentAnswer.add(temp.get(i));
-		
-		//System.out.println(studentAnswer);
 		
 		Collections.sort(studentAnswer);
 		

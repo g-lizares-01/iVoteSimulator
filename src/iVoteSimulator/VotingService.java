@@ -4,13 +4,6 @@ import java.lang.Math;
 
 
 public class VotingService {
-	private static Student[] students;
-	//private ArrayList<String> studentAnswers;
-	private static ArrayList<ArrayList<String>> allAnswers;
-	private static int numOfStudents;
-	private static int numOfResub = (int)(Math.random() * numOfStudents) + 0;
-	
-	
 	//Initial collecting off all students' answers
 	public static ArrayList<ArrayList<String>> compileAnswers(QuestionInterface q, Student[] students, 
 															int numOfStudents, ArrayList<ArrayList<String>> allAnswers)
@@ -44,7 +37,6 @@ public class VotingService {
 		}
 		
 		System.out.println("\n(Answers were resubmitted by students " + numOfResub + " time(s).)\n");
-		//System.out.println(allAnswers);
 		return allAnswers;
 	}
 	

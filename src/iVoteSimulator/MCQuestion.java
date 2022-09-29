@@ -1,49 +1,4 @@
 package iVoteSimulator;
-
-//Questions with multiple answers
-//public class MCQuestion implements QuestionInterface {
-//	
-//	private String mcq;
-//	private String[] mcqChoices;
-//	
-//	//MCQuestion != SQQuestion
-//	public boolean isSCQuestion()
-//	{
-//		return false;
-//	}
-//	
-//	public MCQuestion()
-//	{
-//		this.mcq = "";
-//		this.mcqChoices = new String[0];
-//	}
-//	
-//	public MCQuestion(String mcq, String[] mcqChoices)
-//	{
-//		this.mcq = mcq;
-//		this.mcqChoices = mcqChoices;
-//	}
-//	
-//	public void setQuestion(String mcq)
-//	{
-//		this.mcq = mcq;
-//	}
-//	
-//	public String getQuestion()
-//	{
-//		return mcq;
-//	}
-//	
-//	public void setChoices(String[] mcqChoices)
-//	{
-//		this.mcqChoices = mcqChoices;
-//	}
-//	
-//	public String[] getChoices()
-//	{
-//		return mcqChoices;
-//	}
-
 import java.util.ArrayList;
 
 public class MCQuestion implements QuestionInterface {
