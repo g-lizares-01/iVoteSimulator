@@ -1,0 +1,22 @@
+There will be 21 students responding to the following poll.
+
+The students will be responding to a Single Choice Question.
+
+Students will have 4 answers to select from.
+
+A, B, C, or D
+
+Students, please select ONE option.
+
+(Collecting initial answers...)
+
+Final call for any resubmissions!
+
+(Answers were resubmitted by students 13 time(s).)
+
+
+Final answer totals:
+A: 3
+B: 7
+C: 6
+D: 5

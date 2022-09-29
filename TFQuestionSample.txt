@@ -1,0 +1,21 @@
+There will be 64 students responding to the following poll.
+
+The students will be responding to a True or False Question.
+
+Students will have two answers to select from.
+
+A: True
+B: False
+
+Students, please select ONE option.
+
+(Collecting initial answers...)
+
+Final call for any resubmissions!
+
+(Answers were resubmitted by students 37 time(s).)
+
+
+Final answer totals:
+A: 34
+B: 30
